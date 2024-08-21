@@ -20,7 +20,7 @@
     "strapi-plugin-slugify": "^2.3.8",
     "styled-components": "5.3.3"
   },
-  "name": "my-app-name",
+  "name": "trial-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
