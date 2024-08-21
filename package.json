@@ -1,5 +1,20 @@
 {
-  "name": "trial-strapi-v-4-24-2",
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.0.5",
+    "fs-extra": "^10.0.0",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "@strapi/strapi": "4.21.1",
+    "@strapi/plugin-users-permissions": "4.21.1",
+    "@strapi/plugin-i18n": "4.21.1",
+    "@strapi/plugin-cloud": "4.21.1",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "name": "my-app-name",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,31 +25,11 @@
     "strapi": "strapi"
   },
   "devDependencies": {},
-  "dependencies": {
-    "@ckeditor/strapi-plugin-ckeditor": "^0.0.13",
-    "@strapi/plugin-cloud": "4.25.1",
-    "@strapi/plugin-i18n": "^4.25.1",
-    "@strapi/plugin-seo": "^1.9.9",
-    "@strapi/plugin-users-permissions": "4.25.1",
-    "@strapi/provider-upload-aws-s3": "^4.25.8",
-    "@strapi/strapi": "4.25.1",
-    "lodash-es": "^4.17.21",
-    "pg": "8.8.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "strapi-plugin-populate-deep": "^3.0.1",
-    "strapi-plugin-sitemap": "^3.2.0",
-    "strapi-plugin-slugify": "^2.3.8",
-    "styled-components": "5.3.3",
-    "better-sqlite3": "8.6.0",
-    "@strapi/plugin-graphql": "^4.0.5",
-    "fs-extra": "^10.0.0",
-    "lodash.set": "^4.3.2",
-    "mime-types": "^2.1.27"
-  },
   "author": {
     "name": "A Strapi developer"
+  },
+  "strapi": {
+    "template": "blog"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
