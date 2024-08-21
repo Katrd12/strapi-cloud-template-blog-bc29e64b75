@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_user_tags",
+  "info": {
+    "displayName": "tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "property": {
+      "type": "enumeration",
+      "enum": [
+        "login",
+        "nonLogin",
+        "newUser",
+        "repeatUser"
+      ]
+    },
+    "aaa": {
+      "type": "blocks"
+    }
+  }
+}

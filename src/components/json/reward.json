@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_json_rewards",
+  "info": {
+    "displayName": "reward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reward_ids": {
+      "type": "json"
+    }
+  }
+}

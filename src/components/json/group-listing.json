@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_json_group_listings",
+  "info": {
+    "displayName": "listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "delivery_group_id": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_campaign_campaign_descriptions",
+  "info": {
+    "displayName": "description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
